@@ -1,3 +1,12 @@
+Unlimited Floppy Bird
+
+A modified floppy bird by @nebez.
+
+Just for fun!
+
+http://alihalabyah.github.io/unlimited-floppybird
+
+
 Floppy Bird
 =========
 Initially, I wanted to try recreating Flappy Bird in HTML5, using a canvas and recycling the assets from the old game.
