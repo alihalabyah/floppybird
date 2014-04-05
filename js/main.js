@@ -194,8 +194,8 @@ function gameloop() {
    
    //have they tried to escape through the ceiling? :o
    var ceiling = $("#ceiling");
-   if(boxtop <= (ceiling.offset().top + ceiling.height()))
-      position = 0;
+   // if(boxtop <= (ceiling.offset().top + ceiling.height()))
+      // position = 0;
    
    //we can't go any further without a pipe
    if(pipes[0] == null)
@@ -346,6 +346,7 @@ function setMedal()
 
 function playerDead()
 {
+   return;
    //stop animating everything!
    $(".animated").css('animation-play-state', 'paused');
    $(".animated").css('-webkit-animation-play-state', 'paused');
